@@ -6,7 +6,7 @@ var port = process.env.PORT || 1337;
 
 // 建立一個 http server
 var app = http.createServer(function (req, res) {
-    res.writeHead(404, { 'Content-Type': 'text/plain' });
+    res.writeHead(200, { 'Content-Type': 'text/plain' });
     res.end('Hello World\n');
 })
 
